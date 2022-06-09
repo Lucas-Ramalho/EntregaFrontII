@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.container {
+  background-color: #151515;
+}
+
+
+.form {
+  padding: 3px;
+}
+
+h1 {
+  color: white;
+}
