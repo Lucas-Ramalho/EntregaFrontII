@@ -15,47 +15,68 @@
 <body>
 
   <div class="container">
-
-    <div class="form">
-      <div>
-        <h1>Cadastro de Livros</h1>
-      </div>
-
-      <div class="mb-3">
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Titulo">
-      </div>
-      <div class="mb-3">
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Descrição">
-      </div>
-      <div class="mb-3">
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Url">
-      </div>
-      <div class="mb-3">
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Autor">
-      </div>
-
-      <div>
-        <button type="button" class="btn btn-success btn-lg">Cadastrar</button>
-      </div>
-  </div>
-
-
-    <div class="card" style="width: 18rem;">
-      <img src="imagens/chita.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text" id="card-desc">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <p class="card-text" id="card-autor">Nome Autor</p>
-
-      </div>
+    <div>
+      <h1>Cadastro de Livros</h1>
     </div>
 
+    <form action="">
+      
+      <div class="form">
+        
+        <div class="mb-3">
+          <input type="text" class="form-control" id="novoTitulo" placeholder="Titulo">
+        </div>
+
+        <div class="mb-3">
+          <textarea type="text" class="form-control" name="" id="novaDescricao" cols="30" rows="4" placeholder="Descrição" maxlength="284"></textarea>
+          <!-- <input type="text" class="form-control" id="novaDescricao" placeholder="Descrição" maxlength="280"> -->
+        </div>
+
+        <div class="mb-3">
+          <input type="text" class="form-control" id="novaUrl"  placeholder="Url">
+        </div>
+
+        <div class="mb-3">
+          <input type="text" class="form-control" id="novoAutor"  placeholder="Autor">
+        </div>
+
+        <div class="d-grid justify-content-md-end">
+          <button type="submit" class="btn btn-success btn-lg" id="novaPostagem">Cadastrar</button>
+        </div>
+
+      </div>
+    </form>
+
+
+    <main>
+      
+      <div class="inicio" id="card-inicial">
+       
+        <div>
+          <h3>Sua estante está vazia. Cadastre seu primeiro livro!</h3>
+        </div>
+
+      
+         
+      </div>
+           
+        <!-- <div class="card" style="width: 20rem;">
+          <img src="imagens/chita.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Titulo</h5>
+            <p class="card-text" id="card-desc">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text" id="card-autor">Nome Autor</p>
+
+          </div>
+        </div> -->
+    </main>
 
   </div>
 
 
   <script src="app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

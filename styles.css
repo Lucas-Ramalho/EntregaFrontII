@@ -1,14 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
 .container {
   background-color: #151515;
+  text-align: center;
+  padding-top: 10px;
+
 }
 
 
 .form {
-  padding: 3px;
+  padding: 15px;
+  width: 80%;
+  margin: auto;
 }
 
 h1 {
   color: white;
+}
+
+main {
+  
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  
+}
+
+#card {
+  width: 25em;
+  height: 30em;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+#card .card {
+  width: 100%;
+  height: 100%;
+}
+
+#card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+#card h2 {
+  font-size: 1em;
+  margin-bottom: .2em;
+}
+
+#card #card-desc {
+  font-size: 1em;
+  margin-bottom: .2em;
+}
+
+#card #card-autor {
+  font-size: 1em;
+  margin-bottom: .2em;
+  position: absolute;
+  bottom: 1px;
+  right: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+
+.esconder {
+  display: none;
+}
+
+#card-inicial{
+  padding-top: 30px;
+  width: 80%;
+  height: 40em;
+  color: rgb(10, 7, 7);
+  background-color: rgb(203, 191, 214);
+  background-image: url("imagens/addLivro.png");
+  background-position: center;
+  background-size: 45%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  border-radius: 3%;
 }
