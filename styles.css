@@ -79,7 +79,7 @@ main {
   width: 80%;
   height: 40em;
   color: rgb(10, 7, 7);
-  background-color: rgb(203, 191, 214);
+  background-color: rgba(228, 209, 199, 0.418);
   background-image: url("imagens/addLivro.png");
   background-position: center;
   background-size: 45%;
@@ -90,6 +90,10 @@ main {
   border-radius: 3%;
 }
 
+#card-inicial h3 {
+  /* font-size: 1.8em; */
+  margin-top: 1em;
+}
 
 div.col h3 {
   height: 80%;
@@ -128,4 +132,18 @@ footer {
 
 footer img {
   width: 2em;
+}
+
+@media (max-width: 450px) {
+  #card-inicial{
+   
+    height: 20em;
+   
+  }
+
+  #card-inicial h3 {
+   
+    margin-top: 0;
+  }
+  
 }
