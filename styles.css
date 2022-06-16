@@ -70,9 +70,14 @@ main {
 }
 
 
+
+/* Esconder elemento incial ao cadastrar primeiro livro */
 .esconder {
   display: none;
 }
+
+
+
 
 #card-inicial{
   padding-top: 30px;
